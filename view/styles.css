@@ -1,10 +1,10 @@
 /* CSS for background image and overlay */
 .bg-image {
-    background-image: url('path/to/your/image.jpg'); /* Specify the path to your image */
+    background-image: url('src/coolhouse-bg-hero.jpg'); /* Specify the path to your image */
     position: relative;
 }
 
-.bg-white::before {
+.bg-image::before {
     content: "";
     position: absolute;
     top: 0;
