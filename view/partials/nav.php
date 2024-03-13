@@ -14,22 +14,22 @@
 
         <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+                <a href="#" class="text-md hover:text-sky-300 duration-500">Home</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">SERVICE</a>
+                <a href="#" class="text-md hover:text-sky-300 duration-500">Service</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
+                <a href="#" class="text-md hover:text-sky-300 duration-500">About</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
+                <a href="#" class="text-md hover:text-sky-300 duration-500">Contact</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">BLOG'S</a>
+                <a href="#" class="text-md hover:text-sky-300 duration-500">Blog</a>
             </li>
 
-            <button class="bg-cyan-400 text-white duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded ">
+            <button class="bg-yellow-200 text-stone-900 font-bold duration-500 px-6 py-2 mx-4 hover:bg-sky-300 rounded ">
                 Get started
             </button>
             <h2 class=""></h2>
