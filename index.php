@@ -1,6 +1,8 @@
 <?php
 require('view/partials/head.php');
 require('view/partials/nav.php');
+
+
 ?>
 
 <html>
@@ -10,7 +12,8 @@ require('view/partials/nav.php');
     <div class="bg-gradient-to-b from-indigo-900 to-indigo-800 py-5 z-0">
         <div class="flex items-center pb-20">
             <div class="flex-1 pl-60 ">
-                <h1 class="text-4xl font-bold text-white">Aircon Cleaning <br> Services Redefined</h1>
+                <?php require('controller/text-animation.php') ?>
+                <h1 id="descriptionOne" class="text-4xl font-bold text-white"></h1>
                 <p class="text-white mt-2">Cebu's premiere air conditioning <br> cleaning services</p>
                 <button class="bg-yellow-200 text-stone-900 duration-500 px-10 py-4 my-6 hover:bg-sky-300 rounded font-bold text-lg">Book Now</button>
             </div>
@@ -23,27 +26,27 @@ require('view/partials/nav.php');
 
     <!-- This is the section for the features -->
     <div class="flex gap-10 px-80 -mt-16 z-10 ">
-        <div class="flex-1 bg-zinc-400 p-4 rounded-lg flex items-center flex-col">
-            <ion-icon name="snow-outline" class="text-3xl text-white mb-2"></ion-icon>
-            <span class="text-center text-white text-sm">Guaranteed
+        <div class="flex-1 bg-zinc-300 p-4 rounded-lg flex items-center flex-col">
+            <ion-icon name="snow-outline" class="text-3xl text-stone-900 mb-2"></ion-icon>
+            <span class="text-center text-stone-900 text-sm">Guaranteed
                 Cool in every way</span>
         </div>
 
-        <div class="flex-1 bg-zinc-400 p-4 rounded-lg flex items-center flex-col">
-            <ion-icon name="sparkles-outline" class="text-3xl text-white mb-2"></ion-icon>
-            <span class="text-center text-white text-sm">We make sure
+        <div class="flex-1 bg-zinc-300 p-4 rounded-lg flex items-center flex-col">
+            <ion-icon name="sparkles-outline" class="text-3xl text-stone-900 mb-2"></ion-icon>
+            <span class="text-center text-stone-900 text-sm">We make sure
                 we clean as we leave</span>
         </div>
 
-        <div class="flex-1 bg-zinc-400 p-4 rounded-lg flex items-center flex-col">
-            <ion-icon name="flash-outline" class="text-3xl mb-2 text-white"></ion-icon>
-            <span class="text-center text-white text-sm">Fastest
+        <div class="flex-1 bg-zinc-300 p-4 rounded-lg flex items-center flex-col">
+            <ion-icon name="flash-outline" class="text-3xl mb-2 text-stone-900"></ion-icon>
+            <span class="text-center text-stone-900 text-sm">Fastest
                 Service</span>
         </div>
 
-        <div class="flex-1 bg-zinc-400 p-4 rounded-lg flex items-center flex-col">
-            <ion-icon name="people-outline" class="text-3xl mb-2 text-white"></ion-icon>
-            <span class="text-center text-white text-sm">Responsive
+        <div class="flex-1 bg-zinc-300 p-4 rounded-lg flex items-center flex-col">
+            <ion-icon name="people-outline" class="text-3xl mb-2 text-stone-900"></ion-icon>
+            <span class="text-center text-stone-900 text-sm">Responsive
                 Customer <br> Service</span>
         </div>
 
@@ -61,33 +64,52 @@ require('view/partials/nav.php');
         <div class="flex justify-center items-center bg-indigo-900">
             <!-- Image block 1 -->
             <div class="w-1/2 p-8 text-center">
-                <p class="text-white text-2xl font-bold px-24">Our service to you is our
-                    main concern and our
-                    word is our bond.</p>
+                <p class="text-white text-3xl font-bold px-24 firstDescription">This is description One</p>
+                <script>
+                    gsap.registerPlugin(ScrollTrigger)
+
+                    gsap.to(".firstDescription", {
+                        scrollTrigger: ".firstDescription",
+                        x: -100,
+                    });
+                </script>
+
             </div>
             <div class="w-1/2">
                 <img src="src/block-1.jpg" alt="Your Image" class="w-full h-full object-cover" />
             </div>
         </div>
 
-        <div class="flex justify-center items-center bg-zinc-400">
+        <div class="flex justify-center items-center bg-zinc-300">
             <!-- Image block 2 -->
             <div class="w-1/2 ">
                 <img src="src/block-2.jpg" alt="Your Image" class="w-full h-full object-cover" />
             </div>
             <div class="w-1/2 p-8 text-center">
-                <p class="text-indigo-900 text-2xl font-bold px-24">We really treasure and respect
-                    your time, we expect the same
-                    from you. </p>
+                <p class="text-indigo-900 text-3xl font-bold px-24 secondDescription">This is description Two</p>
+                <script>
+                    gsap.registerPlugin(ScrollTrigger)
+
+                    gsap.to(".secondDescription", {
+                        scrollTrigger: ".secondDescription",
+                        x: 100,
+                    });
+                </script>
             </div>
         </div>
 
         <div class="flex justify-center items-center bg-indigo-900">
             <!-- Image block 3 -->
             <div class="w-1/2 p-8 text-center">
-                <p class="text-white text-2xl font-bold px-24">YWe do not like being
-                    “just okay” so we aim to
-                    provide above and beyond.</p>
+                <p class="text-white text-3xl font-bold px-24 thirdDescription">This is description One</p>
+                <script>
+                    gsap.registerPlugin(ScrollTrigger)
+
+                    gsap.to(".thirdDescription", {
+                        scrollTrigger: ".thirdDescription",
+                        x: -100,
+                    });
+                </script>
             </div>
 
             <div class="w-1/2">
@@ -120,18 +142,17 @@ require('view/partials/nav.php');
                 </div>
 
                 <input type="email" placeholder="Email" class="w-full max-w-md px-4 py-2 mb-4 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500">
-                <button type="submit" class="w-full max-w-md px-4 py-2 bg-yellow-200 text-white rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600">Sign Up</button>
+                <button type="submit" class="w-full max-w-md px-4 py-2 bg-yellow-200 text-white rounded-md hover:bg-sky-300 focus:outline-none focus:bg-green-600">Sign Up</button>
             </form>
 
         </div>
     </div>
 
+
+
+
     <?php require('view/partials/footer.php') ?>
-
-
-
-
-
+    <?php require('controller/text-animation.php') ?>
 
     </body>
 
