@@ -40,7 +40,7 @@ require('view/partials/nav.php');
 
         <div class="flex-1 bg-zinc-300 p-4 rounded-lg flex items-center flex-col">
             <ion-icon name="flash-outline" class="text-3xl mb-2 text-stone-900"></ion-icon>
-            <span class="text-center text-stone-900 text-sm">Fastest
+            <span class="text-center text-stgh vone-900 text-sm">Fastest
                 Service</span>
         </div>
 
