@@ -28,7 +28,7 @@
             </li>
 
             <button class="bg-yellow-200 text-stone-900 font-bold duration-500 px-6 py-2 mx-4 hover:bg-sky-300 rounded ">
-                Get started
+                Book Here
             </button>
             <h2 class=""></h2>
         </ul>

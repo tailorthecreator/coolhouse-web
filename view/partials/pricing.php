@@ -1,5 +1,5 @@
 <section class="bg-white px-4 lg:px-60">
-    <div class="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div class="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-20 sm:px-60">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-indigo-900">Pricing</h2>
             <p class="mb-5 font-light text-stone-900 sm:text-xl">We try to keep the pricing in favor to you because we care about building a long-term relationship.</p>
