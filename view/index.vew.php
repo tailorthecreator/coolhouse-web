@@ -179,17 +179,11 @@ require('view/partials/pop-up.php');
 
 
 
-        <div class="mx-80 my-20">
+        <div class="mx-10 lg:mx-80 my-20">
             <img class="mt-20 w-full rounded-xl" src="src/banner_for_coolhouse.png" alt="dashboard image">
         </div>
 
-        <!-- Testimonial -->
-
-        <!--
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
--->
+        <!--Slider for Tesimonial Section-->
 
         <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
 
@@ -239,8 +233,7 @@ require('view/partials/pop-up.php');
                         </h2>
 
                         <p class="mt-4 text-white">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas veritatis illo placeat
-                            harum porro optio fugit a culpa sunt id!
+                            Read throught the beautiful reviews from our beloved customers.
                         </p>
 
                         <div class="hidden lg:mt-8 lg:flex lg:gap-4">
@@ -286,18 +279,16 @@ require('view/partials/pop-up.php');
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Clean Experience</p>
 
                                             <p class="mt-4 leading-relaxed text-gray-700">
-                                                No, Rose, they are not breathing. And they have no arms or legs … Where are
-                                                they? You know what? If we come across somebody with no arms or legs, do we
-                                                bother resuscitating them? I mean, what quality of life do we have there?
+                                                The experience from booking the service down to execution was painless and was a great experience. I loved how they made sure the areas they occupied was very clean after they were done.
                                             </p>
                                         </div>
                                     </div>
 
                                     <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                                        &mdash; Michael Scott
+                                        &mdash; Erik Joseph Buncaras
                                     </footer>
                                 </blockquote>
                             </div>
@@ -328,18 +319,16 @@ require('view/partials/pop-up.php');
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Smooth and Quick</p>
 
                                             <p class="mt-4 leading-relaxed text-gray-700">
-                                                No, Rose, they are not breathing. And they have no arms or legs … Where are
-                                                they? You know what? If we come across somebody with no arms or legs, do we
-                                                bother resuscitating them? I mean, what quality of life do we have there?
+                                                I was in a hurry to get the airconditioner cleaned because my family was going to have a visit and celebrate my birthday with me, Coolhouse really made it right on time and did the service quick!
                                             </p>
                                         </div>
                                     </div>
 
                                     <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                                        &mdash; Michael Scott
+                                        &mdash; Mary Anne Ochea
                                     </footer>
                                 </blockquote>
                             </div>
@@ -370,18 +359,16 @@ require('view/partials/pop-up.php');
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-indigo-700 sm:text-3xl">Very Detailed</p>
 
                                             <p class="mt-4 leading-relaxed text-gray-700">
-                                                No, Rose, they are not breathing. And they have no arms or legs … Where are
-                                                they? You know what? If we come across somebody with no arms or legs, do we
-                                                bother resuscitating them? I mean, what quality of life do we have there?
+                                                Thank you Coolhouse for a clean experience, your staff was very friendly and I love the attention to details!
                                             </p>
                                         </div>
                                     </div>
 
                                     <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                                        &mdash; Michael Scott
+                                        &mdash; Jesse Jay Ricardo
                                     </footer>
                                 </blockquote>
                             </div>
@@ -390,13 +377,13 @@ require('view/partials/pop-up.php');
                 </div>
 
                 <div class="mt-8 flex justify-center gap-4 lg:hidden">
-                    <button aria-label="Previous slide" id="keen-slider-previous" class="rounded-full border border-rose-600 p-4 text-indigo-700 transition hover:bg-rose-600 hover:text-white">
+                    <button aria-label="Previous slide" id="keen-slider-previous" class="rounded-full border border-white p-4 text-white transition hover:bg-rose-600 hover:text-white">
                         <svg class="size-5 -rotate-180 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         </svg>
                     </button>
 
-                    <button aria-label="Next slide" id="keen-slider-next" class="rounded-full border border-rose-600 p-4 text-indigo-700 transition hover:bg-rose-600 hover:text-white">
+                    <button aria-label="Next slide" id="keen-slider-next" class="rounded-full border border-white p-4 text-white transition hover:bg-rose-600 hover:text-white">
                         <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         </svg>
@@ -404,6 +391,12 @@ require('view/partials/pop-up.php');
                 </div>
             </div>
         </section>
+
+        <!-- Closing Greeting -->
+
+        <div class="flex justify-center mx-60 my-40">
+            <div class="text-center text-4xl lg:text-3xl font-bold text-indigo-900">If there was one thing we truly care about, it's giving the best service we can. That's mean cleanliness in every step of the process.</div>
+        </div>
 
         <!-- Curved Email Section  -->
         <div>

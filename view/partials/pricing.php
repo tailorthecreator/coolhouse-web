@@ -15,7 +15,7 @@
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-5xl font-extrabold">P780</span>
                 </div>
-                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Book Now</a>
             </div>
 
             <!-- Pricing Card 2 -->
@@ -28,7 +28,7 @@
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-5xl font-extrabold">P780</span>
                 </div>
-                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Book Now</a>
             </div>
 
             <!-- Pricing Card 3 -->
@@ -41,7 +41,7 @@
                 <div class="flex justify-center items-baseline my-8">
                     <span class="mr-2 text-5xl font-extrabold">P780</span>
                 </div>
-                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+                <a href="#" class="text-stone-900 bg-yellow-200 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Book Now</a>
             </div>
         </div>
     </div>
